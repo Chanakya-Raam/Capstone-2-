@@ -1,0 +1,47 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff; /* White background */
+    color: #000000; /* Black text */
+}
+
+.navbar {
+    background-color: #000000; /* Black background for the navbar */
+    color: #ffffff; /* White text for navbar links */
+    padding: 10px;
+    text-align: right;
+}
+
+.header {
+    background-color: #000000; /* Black background for header */
+    color: #ffffff; /* White text for header */
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.btn {
+    border: 2px solid #000000; /* Black border for buttons */
+    color: #000000; /* Black text for buttons */
+    background-color: #ffffff; /* White background for buttons */
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
