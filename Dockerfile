@@ -9,5 +9,3 @@ COPY . /usr/share/nginx/html
 
 # Expose the default Nginx port
 EXPOSE 80
-
-# just for fun in the
