@@ -7,5 +7,5 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copy the contents of the current directory into the container
 COPY . /usr/share/nginx/html
 
-# Expose the default Nginx port
+# Expose the default Nginx ports
 EXPOSE 80
